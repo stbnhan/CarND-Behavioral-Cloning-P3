@@ -156,4 +156,7 @@ Variable used for my model:
 Training loss: 0.0091
 Validation loss: 0.0104
 
-I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used an adam optimizer so that manually training the learning rate wasn't necessary.  
+
+Note: I made modifications to submit a smaller sized model.h5 as it was too big to submit previously. It turns out I forgot to define the strides in my Conv2D layer. Also, I added generators as previous reviewer recommended.
+
